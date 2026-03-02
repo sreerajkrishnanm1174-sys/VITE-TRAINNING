@@ -222,121 +222,146 @@ function App() {
     
 
     </div>
-    <div className="flex flex-col items-center space-y-6">
+   
+    <div className="w-full h-fit bg-white-200 rounded-lg flex items-center   pl-36 py-16">
 
-      {/* Content Area */}
-      <div className="w-full h-fit bg-white-200 rounded-lg flex items-center   pl-36 py-16">
+      <div className="w-fit h-fit  mx-24 py-4 ">
+        <h1 className="text-4xl text-gray-600 font-semibold ">
+            Helping a local 
+          </h1>
 
-        <div className="w-fit h-fit  mx-24 py-4 ">
-          <h1 className="text-4xl text-gray-600 font-semibold ">
-              Helping a local 
-            </h1>
+          <h2 className="text-4xl  text-green-500 mt-2 font-semibold">
+            business reinvent itself
+          </h2>
 
-            <h2 className="text-4xl  text-green-500 mt-2 font-semibold">
-              business reinvent itself
+          <p className="text-lg text-gray-600 mt-2">
+            We reached here with our hard work and dedication
+          </p>
+      </div>
+      {/* Left Side - Text */}
+      <div className="w-1/2 h-fit grid grid-cols-2 grid-rows-2 gap-6 pl-50">
+        <div className="bg-white  flex items-center justify-start">
+
+        <div className="bg-white  flex items-center justify-start">
+            {/* Image */}
+          <img
+            src="IMAGES (3)/Helping/Icon (1).svg"
+            alt="Example"
+            className="h-20 w-20 object-contain "
+          />
+
+          {/* Text Container */}
+          <div className="pl-5 h-fit">
+            <h2 className="text-4xl font-bold">
+              2,245,341
             </h2>
-
-            <p className="text-lg text-gray-600 mt-2">
-              We reached here with our hard work and dedication
+            <p className="text-sm text-gray-600 mt-1">
+              Members
             </p>
+          </div>
         </div>
-        {/* Left Side - Text */}
-        <div className="w-1/2 h-fit grid grid-cols-2 grid-rows-2 gap-6 pl-30">
-          <div className="bg-white  flex items-center justify-center">
+        </div>
 
+        <div className="bg-white  flex items-center justify-start">
+          <div className="bg-white flex items-center justify-start">
+            {/* Image */}
+          <img
+            src="IMAGES (3)/Helping/Icon.png"
+            alt="Example"
+            className="h-20 w-20 object-contain"
+          />
+
+          {/* Text Container */}
+          <div className="pl-5 h-fit">
+            <h2 className="text-4xl font-bold">
+              46,328
+            </h2>
+            <p className="text-sm text-gray-600 mt-1">
+              Clubs
+            </p>
+          </div>
+        
+        </div>
+        </div>
+
+        <div className="bg-white  flex items-center justify-start">
           <div className="bg-white  flex items-center justify-start">
-              {/* Image */}
-            <img
-              src="IMAGES (3)/Helping/Icon (1).svg"
-              alt="Example"
-              className="h-20 w-20 object-contain "
-            />
+            {/* Image */}
+          <img
+            src="IMAGES (3)/Helping/Icon (2).svg"
+            alt="Example"
+            className="h-20 w-20 object-contain "
+          />
 
-            {/* Text Container */}
-            <div className="pl-5 h-fit">
-              <h2 className="text-4xl font-bold">
-                2,245,341
-              </h2>
-              <p className="text-sm text-gray-600 mt-1">
-                Members
-              </p>
-            </div>
-          </div>
-          </div>
-
-          <div className="bg-white  flex items-center justify-center">
-            <div className="bg-white flex items-center justify-start">
-              {/* Image */}
-            <img
-              src="IMAGES (3)/Helping/Icon.png"
-              alt="Example"
-             className="h-20 w-20 object-contain"
-            />
-
-            {/* Text Container */}
-            <div className="pl-5 h-fit">
-              <h2 className="text-4xl font-bold">
-                46,328
-              </h2>
-              <p className="text-sm text-gray-600 mt-1">
-               Clubs
-              </p>
-            </div>
+          {/* Text Container */}
+          <div className="pl-5 h-fit">
+            <h2 className="text-4xl font-bold">
+              828,867
+            </h2>
+            <p className="text-sm text-gray-600 mt-1">
+              Event Bookings
+            </p>
           
           </div>
-          </div>
+        </div>
+        </div>
 
+        <div className="bg-white  flex items-center justify-start ">
           <div className="bg-white  flex items-center justify-center">
-            <div className="bg-white  flex items-center justify-start">
-              {/* Image */}
-            <img
-              src="IMAGES (3)/Helping/Icon (2).svg"
-              alt="Example"
-              className="h-20 w-20 object-contain "
-            />
+            {/* Image */}
+          <img
+            src="IMAGES (3)/Helping/Icon (3).svg"
+            alt="Example"
+            className="h-20 w-20 object-contain "
+          />
 
-            {/* Text Container */}
-            <div className="pl-5 h-fit">
-              <h2 className="text-4xl font-bold">
-                828,867
-              </h2>
-              <p className="text-sm text-gray-600 mt-1">
-                Event Bookings
-              </p>
-            
-            </div>
+          {/* Text Container */}
+          <div className="pl-5 h-fit">
+            <h2 className="text-4xl font-bold">
+              1,926,436
+            </h2>
+            <p className="text-sm text-gray-600 mt-1">
+              Payments
+            </p>
           </div>
-          </div>
+        </div>
+        </div>
 
-          <div className="bg-white  flex items-center justify-center ">
-            <div className="bg-white  flex items-center justify-center">
-              {/* Image */}
-            <img
-              src="IMAGES (3)/Helping/Icon (3).svg"
-              alt="Example"
-              className="h-20 w-20 object-contain "
-            />
+      </div>
 
-            {/* Text Container */}
-            <div className="pl-5 h-fit">
-              <h2 className="text-4xl font-bold">
-                1,926,436
-              </h2>
-              <p className="text-sm text-gray-600 mt-1">
-                Payments
-              </p>
-            </div>
-          </div>
-          </div>
+      {/* Right Side - Image */}
 
+    </div>
+
+       <div className="w-full h-fit bg-white-200 rounded-lg flex items-center   pl-26 py-16">
+
+        <div className="w-fit h-fit  mx-24 py-4 ">
+          <img
+            src="/IMAGES (3)/mobile-login/pana.png"
+            alt="Illustration"
+            className="h-110 w-130 object-contain"
+          />
+        </div>
+        {/* Left Side - Text */}
+        <div className="w-190 h-fit  flex  ">
+          <div className="text-left">
+            <h1 className="text-5xl text-gray-600 font-semibold ">
+              How to design your site footer like <br />we did
+            </h1>
+
+            <p className="text-lg text-gray-600 mt-2">
+             Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.
+            </p>
+            <br />
+            <button className="px-8 py-3 bg-green-500 text-white rounded-sm  hover:bg-green-600 transition font-medium">
+            Learn more
+            </button>
+          </div>
         </div>
 
         {/* Right Side - Image */}
 
       </div>
-    
-
-    </div>
 
 
     
