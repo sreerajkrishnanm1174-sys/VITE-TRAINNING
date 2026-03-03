@@ -3,8 +3,8 @@ import React from 'react'
 const Navibar = () => {
    return (
     <nav className="bg-white-900 text-black ">
-      <div className="max-w-8xl mx-auto px-35">
-        <div className="flex justify-between items-center h-16 space-x-10">
+      <div className="max-w-8xl mx-auto px-30">
+        <div className="flex justify-between items-center h-16 space-x-9">
 
           {/* Logo */}
           <div className="flex items-center space-x-3">
@@ -13,7 +13,7 @@ const Navibar = () => {
                 alt="Logo" 
                 className="h-10 w-auto object-contain"
             />
-            <span className="text-xl font-bold tracking-wide">
+            <span className="text-4xl font-bold tracking-wide">
                 Nexcent
             </span>
           </div>
