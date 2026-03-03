@@ -1,4 +1,6 @@
 import "./App.css";
+import Primary_button from "./components/button/Primary_button";
+import Image_div from "./components/divs/Image_div";
 import Footer from "./components/footer/Footer";
 import Navibar from "./components/Navbar/Navibar";
 import { useState } from "react";
@@ -9,7 +11,7 @@ function App() {
   return (
     <>
       <Navibar/>
-
+      {/* Lessons and insights */}
       <div className="flex flex-col items-center space-y-6">
 
         {/* Content Area */}
@@ -30,9 +32,12 @@ function App() {
                 Where to grow your business as a photographer: site or social media?
               </p>
               <br />
-              <button className="px-8 py-3 bg-green-500 text-white rounded-sm  hover:bg-green-600 transition font-medium">
-              Register
-              </button>
+              <Primary_button>
+                 Register
+              </Primary_button>
+              {/* <button className="px-8 py-3 bg-green-500 text-white rounded-sm  hover:bg-green-600 transition font-medium">
+             
+              </button> */}
             </div>
           </div>
 
@@ -63,6 +68,7 @@ function App() {
 
       </div>
       
+      {/* Our Clients */}
       <div className="w-full h-fit flex flex-col justify-center items-center text-center  ">
 
         {/* First Div */}
@@ -88,6 +94,8 @@ function App() {
 
       </div>
 
+      {/* Manage your entire community
+      in a single system     */}
       <div className="w-full h-fit flex flex-col justify-center items-center text-center pt-20  ">
 
         {/* First Div */}
@@ -186,6 +194,8 @@ function App() {
 
       </div>
 
+      {/* The unseen of spending three
+        years at Pixelgrade */}
       <div className="flex flex-col items-center space-y-6">
 
         {/* Content Area */}
@@ -209,9 +219,10 @@ function App() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.
             </p>
             <br />
-            <button className="px-8 py-3 bg-green-500 text-white rounded-sm  hover:bg-green-600 transition font-medium">
+            <Primary_button>
             Learn more
-            </button>
+            </Primary_button>
+            
           </div>
         </div>
 
@@ -221,7 +232,9 @@ function App() {
       
 
       </div>
-    
+      
+
+      {/* Helping a local */}
       <div className="w-full h-fit bg-white-200 rounded-lg flex items-center   pl-36 py-16">
 
         <div className="w-fit h-fit  mx-24 py-4 ">
@@ -331,7 +344,10 @@ function App() {
         {/* Right Side - Image */}
 
       </div>
+      
 
+      {/* How to design your site footer like
+      we did */}
       <div className="w-full h-fit bg-white-200 rounded-lg flex items-center   pl-26 py-16">
 
         <div className="w-fit h-fit  mx-24 py-4 ">
@@ -352,9 +368,9 @@ function App() {
               Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.
             </p>
             <br />
-            <button className="px-8 py-3 bg-green-500 text-white rounded-sm  hover:bg-green-600 transition font-medium">
+           <Primary_button>
             Learn more
-            </button>
+           </Primary_button>
           </div>
         </div>
 
@@ -363,7 +379,7 @@ function App() {
       </div>
 
 
-
+      {/* Tim Smith */}
       <div className="w-full h-fit bg-white-200 rounded-lg flex items-center    py-16">
 
         <div className="w-fit h-fit  mx-24 py-4 ">
@@ -451,6 +467,7 @@ function App() {
 
       </div>
 
+        {/* Caring is the new marketing */}
       <div className="w-full">
 
           {/* Row 1 */}
@@ -472,145 +489,33 @@ function App() {
 
           {/* Row 2 */}
           <div className="grid grid-cols-3 px-40 gap-16  py-10 w-fit h-fit rounded-lg">
-            <div className="relative bg-bl-200 text-center w-fit  h-fit">
-              <img
-                src="/IMAGES (3)/BG/image 18.png"
-                alt=""
-                className="w-130 h-100"
-                
-              />
+            <Image_div
+            img="/IMAGES (3)/BG/image 18.png"
+            descr="Creating Streamlined Safeguarding Processes with OneRen"/>
 
-              <div className="absolute z-50 bg-white shadow-md h-50 w-110 -bottom-20 left-1/2 -translate-x-1/2 text-center rounded-lg p-6">
+            <Image_div
+            img="/IMAGES (3)/BG/image 19.png"
+            descr="What are your safeguarding responsibilities and how can you manage them?"/>
 
-                <p className="text-2xl text-gray-600 font-semibold">
-                  Creating Streamlined <br />Safeguarding  Processes with <br /> OneRen
-                </p>
-
-                
-                <a
-                  href="#"
-                  className="mt-4 text-2xl text-green-500 flex justify-center items-center gap-2 
-                  whitespace-nowrap font-semibold
-                  transition-all duration-300 ease-in-out
-                  hover:text-green-600 hover:gap-3"
-                >
-                  <span>Readmore</span>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    className="w-6 h-6"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                    strokeLinecap="round"
-                  >
-                    <path d="M16 16L19.2929 12.7071C19.6834 12.3166 19.6834 11.6834 19.2929 11.2929L16 8M19 12L5 12" />
-                  </svg>
-
-                </a>
-
-              </div>
-            </div>
-
-            <div className="relative bg-white-200 text-center w-fit h-fit">
-              <img
-                src="/IMAGES (3)/BG/image 19.png"
-                alt=""
-                className="w-130 h-100"
-                
-              />
-
-              <div className="absolute z-50 bg-white shadow-md h-50 w-110 -bottom-20 left-1/2 -translate-x-1/2 text-center rounded-lg p-6">
-
-                <p className="text-2xl text-gray-600 font-semibold">
-                What are your safeguarding responsibilities and how can you manage them?
-                </p>
-
-                <a
-                  href="#"
-                  className="mt-4 text-2xl text-green-500 flex justify-center items-center gap-2 
-                  whitespace-nowrap font-semibold
-                  transition-all duration-300 ease-in-out
-                  hover:text-green-600 hover:gap-3"
-                >
-                  <span>Readmore</span>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    className="w-6 h-6"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                    strokeLinecap="round"
-                  >
-                    <path d="M16 16L19.2929 12.7071C19.6834 12.3166 19.6834 11.6834 19.2929 11.2929L16 8M19 12L5 12" />
-                  </svg>
-
-                </a>
-
-              </div>
-            </div>
-
-            <div className="relative bg-white-200 text-center w-fit h-fit">
-              <img
-                src="/IMAGES (3)/BG/image 20.png"
-                alt=""
-                className="w-130 h-100"
-                
-              />
-
-              <div className="absolute z-50 bg-white shadow-md h-50 w-110 -bottom-20 left-1/2 -translate-x-1/2 text-center rounded-lg p-6">
-
-                <p className="text-2xl text-gray-600 font-semibold">
-                  Revamping the Membership <br /> Model with Triathlon <br /> Australia
-                </p>
-
-                <a
-                  href="#"
-                  className="mt-4 text-2xl text-green-500 flex justify-center items-center gap-2 
-                  whitespace-nowrap font-semibold
-                  transition-all duration-300 ease-in-out
-                  hover:text-green-600 hover:gap-3"
-                >
-                  <span>Readmore</span>
-
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    className="w-6 h-6"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                    strokeLinecap="round"
-                  >
-                    <path d="M16 16L19.2929 12.7071C19.6834 12.3166 19.6834 11.6834 19.2929 11.2929L16 8M19 12L5 12" />
-                  </svg>
-
-                </a>
-
-              </div>
-            </div>
-          
-          
+            <Image_div
+            img="/IMAGES (3)/BG/image 20.png"
+            descr=" Revamping the Membership Model with Triathlon Australia"/>
             
           </div>
 
       </div>
 
+
+        {/* Pellentesque suscipit
+        fringilla libero eu. */}
       <div className="flex flex-col items-center justify-center text-center pt-40 pb-10">
 
         <h1 className="text-8xl text-gray-800 font-semibold mb-6">
           Pellentesque suscipit <br /> fringilla libero eu.
         </h1>
 
-        <button
-            className="bg-green-500 text-white px-6 py-3 rounded-lg
-            hover:bg-green-600 transition
-            flex items-center justify-center gap-2"
-          >
-            <span>Get Demo</span>
+        <Primary_button>
+          <span>Get Demo</span>
 
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -623,7 +528,9 @@ function App() {
             >
               <path d="M16 16L19.2929 12.7071C19.6834 12.3166 19.6834 11.6834 19.2929 11.2929L16 8M19 12L5 12" />
             </svg>
-        </button>
+        </Primary_button>
+
+       
 
       </div>
       
